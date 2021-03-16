@@ -1,5 +1,5 @@
 import './App.css'
-import { useState } from 'react'
+
 import { NavBar } from './NavBar'
 import { Hero } from './Hero'
 import { Courses } from './Courses'
@@ -16,7 +16,7 @@ function App () {
 			{/*Hero*/ }
 			<Hero/>
 			{/*	Courses*/ }
-			<Courses />
+			<Courses/>
 			
 			<section className="news">
 				<h2>News</h2>

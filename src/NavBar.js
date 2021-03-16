@@ -9,10 +9,10 @@ export function NavBar () {
 			</form>
 			<div className="header-right">
 				<nav className="nav">
-					<a className="nav-item nav-link" href="">Home</a>
-					<a className="nav-item nav-link" href="">About</a>
-					<a className="nav-item nav-link" href="">Courses</a>
-					<a className="nav-item nav-link" href="">Contact</a>
+					<a className="nav-item nav-link" href="/">Home</a>
+					<a className="nav-item nav-link" href="/">About</a>
+					<a className="nav-item nav-link" href="/">Courses</a>
+					<a className="nav-item nav-link" href="/">Contact</a>
 					<button className={ 'btn btn-outline-accent' }>Sign Up</button>
 				</nav>
 			</div>
