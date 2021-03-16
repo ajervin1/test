@@ -1,17 +1,23 @@
 import './App.css'
+import { useState } from 'react'
+import { NavBar } from './NavBar'
+import { Hero } from './Hero'
+import { Courses } from './Courses'
+
+
+
+
 
 function App () {
 	return (
-		<div className="App">
-			<header>
-				<h2>Header</h2>
-			</header>
-			<section className="hero">
-				<h2>Hero</h2>
-			</section>
-			<section className="courses">
-				<h2>Courses</h2>
-			</section>
+		<div className="App container">
+			{/*NavBar*/ }
+			<NavBar/>
+			{/*Hero*/ }
+			<Hero/>
+			{/*	Courses*/ }
+			<Courses />
+			
 			<section className="news">
 				<h2>News</h2>
 			</section>
